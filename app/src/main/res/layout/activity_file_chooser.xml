@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_file_choose"
+        style="@style/ToolBar_Theme"
+        android:background="#2433ff"
+        app:navigationIcon="@drawable/ic_arrow_back_white_18dp"
+        app:titleTextColor="#fff" />
+    <ListView
+        android:id="@+id/file_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"/>
+
+</LinearLayout>
